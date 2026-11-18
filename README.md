@@ -139,9 +139,8 @@ verilator --lint-only -Wall -Wno-DECLFILENAME sync_fifo.v
 
 ## Tools
 
-Verilog-2005, ModelSim, Icarus Verilog, Verilator (lint)
+Verilog-2005, ModelSim,
 
 ## Author
 
-**Mithun**, M.Tech VLSI Design, Vellore Institute of Technology
-[LinkedIn](https://www.linkedin.com/in/your-profile) · [GitHub](https://github.com/your-username)
+**Mithun Nitheesh Rogan R**,
