@@ -87,15 +87,9 @@ The testbench mirrors what the DUT accepts (`wr_en && !full`, `rd_en && !empty`)
 
 **Results:** all four tests pass with 0 errors (`DEPTH=8`, `DATA_W=8`). A parameter sweep over `DATA_W` in {1, 8, 32} and `DEPTH` in {2, 4, 16, 32, 64} also passes.
 
-### Waveform
-
-![ModelSim waveform](docs/waveform.png)
 
 The DUT `count` tracks the model `q_cnt` exactly. `full` asserts at 8 words, `overflow` pulses for the rejected writes, and `rd_data` returns the words in write order.
 
-### Simulation transcript
-
-![ModelSim transcript](docs/transcript.png)
 
 ## How to run
 
